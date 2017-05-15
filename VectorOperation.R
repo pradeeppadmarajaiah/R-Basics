@@ -70,3 +70,34 @@ high_rating <- rating[rating > 3]
 print(high_rating)
 
 
+#**change the third element Rama to John**
+
+friend_names <-c("Pradeep" ,"Ram","Rama","Sham","Raj")
+
+friend_names[3] <- "John"
+
+print(friend_names)
+
+
+#**Create a sequence with increment of 2**
+
+print(even_values <- seq(2,8,2))
+
+
+#**Create a character "Pradeep" 10 times**
+print(rep_character <- rep("Pradeep",10))
+
+
+yourself <- c("Pradeep","P","Senior Consulant","Banglore","Java","Jee")
+#**get 1 and 3rd character**
+print(yourself[c(1,3)])
+
+
+#**check pradeep, padmarajaiah exist in yourself vector**
+print(check <- yourself == c('Pradeep','padmarajaiah'))
+
+
+
+
+
+
